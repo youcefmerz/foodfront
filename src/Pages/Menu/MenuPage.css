@@ -1,0 +1,11 @@
+.menu-page-container{
+    display: flex;
+    
+}
+.left-side{
+    flex: 1;
+
+}
+.right-side{
+    flex: 2;
+}

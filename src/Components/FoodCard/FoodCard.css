@@ -1,0 +1,33 @@
+.Foodcard{
+    margin: 20px;
+}
+
+.Foodcard1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 215px;
+    
+}
+
+.food-name{
+    margin: 6px;
+    display: block;
+    font: 16px FuturaBook,Verdana,sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: #404040;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.food-prix{
+    margin: 6px;
+    font-family: SabonRoman,"Times New Roman",serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+}
