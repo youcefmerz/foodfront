@@ -34,9 +34,22 @@ li{
     
 }
 
-.rec{
+.right-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+}
+.account{
+    display: flex;
+    align-items: flex-end;
+    padding: 3px;
+    font-family: FuturaBook,Verdana,sans-serif;
+    font-size: 13px;
+    color: #404040;
+}
+
+.account-user{
+    display: flex;
+    flex-direction: column;
 }

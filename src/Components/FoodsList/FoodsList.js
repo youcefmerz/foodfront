@@ -7,10 +7,11 @@ import axios from "axios";
 function FoodList() {
   const dispatch = useDispatch();
   const { foods } = useSelector((state) => state.food);
+  const { title } = useSelector((state) => state.filter);
   useEffect(() => {
-    const fetchData = async () => {
+const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/foods");
+        const response = await axios.get(`http://localhost:4000/foods`);
         console.log("response is ", response)
         if (!response || response.status !== 200)
           return dispatch({ type: "SET_FOODS", payload: [] });
@@ -22,8 +23,9 @@ function FoodList() {
     };
     fetchData();
   }, [dispatch]);
-console.log("rrrrrrrr",foods)
 
+  
+console.log("rrrrrr",title)
   return (
      <div className="Foods-list">
         {!foods || foods.length === 0 ? (
@@ -33,9 +35,9 @@ console.log("rrrrrrrr",foods)
        {foods.map((food, index) => (
                 <FoodCard
                   key={index}
-                  title={food.title}
-                  price={food.price}
-                  imgsrc={food.imgsrc}
+                  foodd={food}
+                 
+                  
                 />
               ))}
       </>

@@ -1,0 +1,32 @@
+.CodePromo{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.CodePromo1{
+display: flex;
+
+}
+.code-input{
+    margin-right: 10px;
+}
+.code-input input{
+    background-color: #fff;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    font-family: FuturaBook,Verdana,sans-serif;
+    color: #404040;
+    font-size: 15px;
+    padding: 12px 15px;
+    text-indent: 0;
+    width: 100%;
+    outline: 0;
+    
+}
+.code-but button{
+    height: 44px;
+    width: 240px;
+    background: #9F1B32;
+    color: #fff;
+    border: none;
+}

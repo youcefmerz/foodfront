@@ -8,6 +8,7 @@ import Footer from '../../Components/Footer/Footer'
 
 
 function Index() {
+  
   return (
     
     <div className="Index">
