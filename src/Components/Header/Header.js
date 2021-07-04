@@ -43,7 +43,7 @@ nom = JSON.parse(nom)
     
      <div className="Header">
       <div className="logo">
-        <img src="/hamburger-solid.svg" alt="" width="100px"height="33px"/>                                       
+      <Link to="/"><img src="/logogrec.png" alt="" width="120px"height="80px"/></Link>                                    
        </div>
        <div className="nav">
               
